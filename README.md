@@ -5,6 +5,8 @@
 
 # Coverage Monitor
 
+[![Join the chat at https://gitter.im/exceptionyard/coverage-monitor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/exceptionyard/coverage-monitor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project is brand new and will take some time to develop.
 
 ## Why?
