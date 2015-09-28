@@ -1,0 +1,21 @@
+sudo: false
+
+language: php
+
+matrix:
+  include:
+    - php: 5.5
+    - php: 7
+  allow_failures:
+    - php: 7
+
+before_install:
+  - composer self-update
+
+install:
+  - travis_retry composer install --no-interaction --ignore-platform-reqs --prefer-source
+  - composer info -i
+
+script:
+  - ./vendor/bin/phpunit
+  - ./vendor/bin/phpcs
