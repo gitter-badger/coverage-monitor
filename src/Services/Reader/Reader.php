@@ -1,6 +1,6 @@
 <?php
 
-namespace Ey\Services\Reader;
+namespace EY\Services\Reader;
 
 class Reader
 {

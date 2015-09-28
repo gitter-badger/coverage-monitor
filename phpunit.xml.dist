@@ -1,7 +1,7 @@
-<phpunit bootstrap="./vendor/autoload.php" colors="true">
+<phpunit bootstrap="./vendor/autoload.php" colors="false">
     <testsuites>
-        <testsuite name="Zend\\Expressive Tests">
-            <directory>./test</directory>
+        <testsuite name="Coverage Monitor Tests">
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
 
