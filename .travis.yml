@@ -17,8 +17,8 @@ install:
   - composer info -i
 
 script:
-  - ./vendor/bin/phpunit
-  - ./vendor/bin/phpcs
+  - ./vendor/bin/phpunit --coverage-text --coverage-clover ./build/logs/clover.xml
+  - ./vendor/bin/php-cs-fixer fix -v --diff --dry-run
 
 after_script:
   - ./vendor/bin/coveralls -v
